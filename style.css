@@ -1,0 +1,143 @@
+body{
+ background-color:rgba(18, 243, 179, 0.436);
+}
+
+h1 , h4{
+    display: flex;
+    justify-content: center;
+}
+
+.ScoreBoard{
+    background-color: rgb(18, 243, 179);
+    width:50%;
+    height: fit-content;
+    padding:1%;
+    border-radius: 20px;
+}
+
+.ScoreCont{
+    display: flex;
+    justify-content: center;
+}
+
+.player , .computer{
+  font-weight: 600;
+ 
+}
+
+.player{
+    margin-right: 25%;
+    margin-left: 15%;
+}
+
+.computer{
+    margin-left: 20%;
+}
+
+.ScoreBoard h1{
+    font-size:2vw;
+    margin-top: -1vh;
+    margin-left: -1vw;
+}
+
+.comp{
+    
+    height: 35vh;
+    width: 20vw;
+    cursor: pointer;
+    transition: transform .2s ease-in-out;
+
+    
+}
+
+.cont{
+    margin: 10vh 5vw 10vw 5vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pressable:hover{
+    transform:scale(110% , 110%)
+}
+
+#alert{
+    padding:30px;
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(150, 199, 223);
+    border-radius: 20px;
+    display: none;
+}
+
+.btn {
+        border:none; 
+        width:7vw; 
+        height:5vh; 
+        border-radius:20px; 
+        background-color:rgb(63, 255, 194);
+        cursor:pointer; 
+        transform:translate(5vw,5vh)
+}
+
+.btn:hover , .playAgain:hover{
+    background-color: rgb(49, 201, 153);
+}
+
+.compImg{
+    width:30%; 
+    height:50%;
+    margin-left:17vw; 
+    margin-top:4vh
+}
+
+.winnerAlert{
+    padding:30px; 
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(150, 199, 223);
+    border-radius: 20px;
+    display: none;    
+}
+
+
+.centerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playAgain{
+    padding: 10px;
+    width: 7em;
+    height: fit-content;
+    border-radius:20px; 
+    background-color:rgb(63, 255, 194);
+    cursor:pointer;
+    border: none;
+    margin: 0 auto;
+}
+
+.Exit {
+    padding: 10px;
+    width: 7em;
+    height: fit-content;
+    border-radius:20px; 
+    background-color:rgb(255, 101, 63);
+    cursor:pointer;
+    border: none;
+    margin: 0 auto;
+}
+
+.Exit:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+#alert , .winnerAlert{
+    transform: translate(17rem , -24rem);
+}
+
+.pressable{
+
+}

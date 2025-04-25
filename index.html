@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock-Paper-Scissor</title>
+</head>
+<body>
+    <h1>Welcome to Rock-Paper-Scissor</h1>
+    <h4>Game lasts Until Someone Reach 3 Points</h4>
+    <div class = "ScoreCont">
+        <div class = "ScoreBoard">
+            <h1>Scoreboard</h1>
+            <span class="player"> Player : <span class="Pscore">0</span> </span>
+            <span class="computer"> Computer : <span class="Cscore">0</span> </span>
+        </div>
+    </div>
+    <div class = "cont">
+        <span class="Rock"><img class = "comp pressable" src="imgs/Rock.png" alt="Rock"></span>    
+        <span class = "Paper"><img class="comp pressable" src="imgs/Paper.png" alt="Paper"></span>    
+        <span class="Scissor"><img class = "comp pressable" src="imgs/Scissor.png" alt="Scissor"></span>   
+     </div>
+    
+    
+        <div id="alert">
+            <h3 style='margin-left:3vw'>Computer Chose :: </h3>
+            <img src = "" class = "compImg" >
+            
+            <button class="btn" onclick = "hide(AlertBox)"> OK </button>
+        </div>
+    
+
+        <div class="winnerAlert" >
+            <h2></h2>     
+            <button class="Exit" >Exit</button>
+            <button class="playAgain" >Play Again</button>
+        </div>
+
+<script src="main.js"></script>
+</body>
+</html>
